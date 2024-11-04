@@ -14,6 +14,8 @@
 		9C6CE0982CCEA7A1005FD85F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C6CE0972CCEA7A1005FD85F /* Assets.xcassets */; };
 		9C6CE09B2CCEA7A1005FD85F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C6CE0992CCEA7A1005FD85F /* LaunchScreen.storyboard */; };
 		9CAEC4782CD1029900E21E68 /* TabBar.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CAEC4772CD1029900E21E68 /* TabBar.storyboard */; };
+		E21343E62CD82A5C00495F5B /* TextedCatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21343E52CD82A5C00495F5B /* TextedCatViewController.swift */; };
+		E21343E92CD82C4C00495F5B /* TextedCat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21343E82CD82C4C00495F5B /* TextedCat.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		9C6CE09A2CCEA7A1005FD85F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C6CE09C2CCEA7A1005FD85F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CAEC4772CD1029900E21E68 /* TabBar.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TabBar.storyboard; sourceTree = "<group>"; };
+		E21343E52CD82A5C00495F5B /* TextedCatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextedCatViewController.swift; sourceTree = "<group>"; };
+		E21343E82CD82C4C00495F5B /* TextedCat.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TextedCat.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,20 +72,21 @@
 			path = ConcerteApp;
 			sourceTree = "<group>";
 		};
-		9C6CE0A22CD0EF60005FD85F /* Welcome */ = {
+		9C6CE0A22CD0EF60005FD85F /* Cat */ = {
 			isa = PBXGroup;
 			children = (
 				9C6CE0942CCEA7A0005FD85F /* Welcome.storyboard */,
 				9C6CE0922CCEA7A0005FD85F /* WelcomeViewController.swift */,
 			);
-			path = Welcome;
+			path = Cat;
 			sourceTree = "<group>";
 		};
 		9C6CE0A32CD0EF6A005FD85F /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				E21343E72CD82A7600495F5B /* TextedCat */,
 				9CAEC4762CD1028700E21E68 /* TabBar */,
-				9C6CE0A22CD0EF60005FD85F /* Welcome */,
+				9C6CE0A22CD0EF60005FD85F /* Cat */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -92,6 +97,15 @@
 				9CAEC4772CD1029900E21E68 /* TabBar.storyboard */,
 			);
 			path = TabBar;
+			sourceTree = "<group>";
+		};
+		E21343E72CD82A7600495F5B /* TextedCat */ = {
+			isa = PBXGroup;
+			children = (
+				E21343E52CD82A5C00495F5B /* TextedCatViewController.swift */,
+				E21343E82CD82C4C00495F5B /* TextedCat.storyboard */,
+			);
+			path = TextedCat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CAEC4782CD1029900E21E68 /* TabBar.storyboard in Resources */,
+				E21343E92CD82C4C00495F5B /* TextedCat.storyboard in Resources */,
 				9C6CE09B2CCEA7A1005FD85F /* LaunchScreen.storyboard in Resources */,
 				9C6CE0982CCEA7A1005FD85F /* Assets.xcassets in Resources */,
 				9C6CE0962CCEA7A0005FD85F /* Welcome.storyboard in Resources */,
@@ -167,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C6CE0932CCEA7A0005FD85F /* WelcomeViewController.swift in Sources */,
+				E21343E62CD82A5C00495F5B /* TextedCatViewController.swift in Sources */,
 				9C6CE08F2CCEA7A0005FD85F /* AppDelegate.swift in Sources */,
 				9C6CE0912CCEA7A0005FD85F /* SceneDelegate.swift in Sources */,
 			);

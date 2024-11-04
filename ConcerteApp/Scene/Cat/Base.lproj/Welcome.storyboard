@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="fzZ-77-Nel">
-                                <rect key="frame" x="24" y="82.666666666666657" width="345" height="346.33333333333337"/>
+                                <rect key="frame" x="24" y="82.333333333333343" width="345" height="346.33333333333326"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="fzZ-77-Nel" secondAttribute="height" multiplier="1:1" id="VW9-fp-1Mg"/>
                                 </constraints>
@@ -58,6 +58,7 @@
                     </view>
                     <connections>
                         <outlet property="activityIndicator" destination="wpU-IX-RYf" id="Su9-Fn-WsR"/>
+                        <outlet property="button" destination="3zf-ne-uEe" id="xVZ-4O-EgB"/>
                         <outlet property="catImageView" destination="fzZ-77-Nel" id="LtH-wx-aXt"/>
                         <outlet property="statusLabel" destination="o2x-8W-rhk" id="2Bh-hC-O55"/>
                     </connections>

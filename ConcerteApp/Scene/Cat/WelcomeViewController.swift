@@ -9,6 +9,7 @@ import UIKit
 
 class WelcomeViewController: UIViewController {
 
+    @IBOutlet weak var button: UIButton!
     @IBOutlet weak var catImageView: UIImageView!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var statusLabel: UILabel!
@@ -34,6 +35,7 @@ class WelcomeViewController: UIViewController {
             DispatchQueue.main.async { [weak self] in
                 self?.catImageView.image = UIImage(data: data)
                 self?.statusLabel.text = "Загрузка кота закончена"
+                self?.button.isEnabled = true
                 self?.activityIndicator.stopAnimating()
             }
         }
@@ -45,6 +47,7 @@ class WelcomeViewController: UIViewController {
     @IBAction func didTapButton(_ sender: Any) {
         activityIndicator.startAnimating()
         statusLabel.text = "Начинаю загрузку кота!"
+        button.isEnabled = false
         downloadCat()
     }
 }
